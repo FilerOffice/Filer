@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "who",
+						"type": "address"
+					}
+				],
+				"name": "getRelationShip",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "bind",
+						"type": "address"
+					}
+				],
+				"name": "invite",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IPoolInvite.sol": "IPoolInvite"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IPoolInvite.sol": {
+			"keccak256": "0xfa4a9626acc48a2d133752e9f09a0f29e5c672c607bc678e1a778e9c3e0ad5dd",
+			"urls": [
+				"bzz-raw://5434dca8786d32d28137bc4b20f9ccc4bd082ada6bf08db427f6187c4fe3b880",
+				"dweb:/ipfs/Qmc8PTjWPGhVFE2aJHkQA1dfsdM4GgPcedFKxdhFGoTW1T"
+			]
+		}
+	},
+	"version": 1
+}

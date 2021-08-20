@@ -1,0 +1,28 @@
+{
+  "name": "filer-protocol",
+  "version": "1.0.0",
+  "description": "Filer",
+  "main": "truffle-config.js",
+  "directories": {},
+  "scripts": {
+    "dev": "truffle migrate --network dev >logs/dev.log && echo 🚀🚀🚀 "
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://47.115.55.202:8881/DeFi-Group/Filer-Protocol"
+  },
+  "keywords": [],
+  "author": "ygsgdbd",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0",
+    "@truffle/artifactor": "^4.0.84",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "decimal": "^0.0.2",
+    "ethers": "^5.4.1"
+  }
+}
